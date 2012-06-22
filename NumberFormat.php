@@ -2,10 +2,13 @@
  
 $wgExtensionCredits['parserhook'][] = array(
 'name'         => 'NumberFormat',
-'version'      => '0.4.1', // 2011-05-11
+'version'      => '0.5', // 2012-06-22
 'description'  => 'Format numbers: insert thousands separators, round to a given number of decimals',
-'author'       => 'Patrick Nagel',
-'url'          => 'http://www.mediawiki.org/wiki/Extension:NumberFormat',
+'author'       => array(
+		'[[en:User:Patrick Nagel|Patrick Nagel]]',
+		'[[ru:User:Pastakhov|Pavel Astakhov]]'
+		),
+'url'          => 'https://www.mediawiki.org/wiki/Extension:NumberFormat',
 );
  
 $wgExtensionFunctions[] = 'number_format_Setup';
@@ -29,32 +32,40 @@ function number_format_Render(&$parser) {
         array_shift($params);
         $paramcount = count($params);
  
-        if ($paramcount >= 1) {
-                if ($params[0] == '') return '';
-                if (!is_numeric($params[0])) return '<span class="error">First argument to number_format must be a number</span>';
-        }
- 
-        switch ($paramcount) {
-                case 4:
-                        // Since 'space' cannot be passed through parser functions, users are advised to use
-                        // the underscore instead. Converting back to space here.
-                        if ($params[2] == '_') $params[2] = ' ';
-                        if ($params[3] == '_') $params[3] = ' ';
-                        return number_format($params[0], $params[1], $params[2], $params[3]);
-                        break;
-                case 3:
-                        return '<span class="error">number_format needs one, two or four parameters - not three.</span>';
-                        break;
-                case 2:
-                        return number_format($params[0], $params[1]);
-                        break;
-                case 1:
-                        return number_format($params[0]);
-                        break;
-                case 0:
-                        return "";
-                        break;
-                default:
-                        return '<span class="error">wrong number of arguments to number_format.</span>';
-        }
-} 
+	if (isset($params[0]) && $params[0] == '') return '';
+
+	switch ($paramcount) {
+		case 5:
+			// Since 'space' cannot be passed through parser functions, users are advised to use
+			// the underscore instead. Converting back to space here.    
+			if ($params[4] == '_') $params[4] = ' ';
+			$params[0]=str_replace($params[4],'.',$params[0]);
+		case 4:                    
+			if ($params[3] == '_') $params[3] = ' '; //Converting back to space
+		case 3:
+			if ($params[2] == '_') $params[2] = ' '; //Converting back to space
+		case 2:
+			if ($params[1] == '_') $params[1] = strrpos($params[0], '.') ? strlen($params[0])-strrpos($params[0], '.')-1 : 0; //Number of decimal points same as input
+		case 1:
+			break;
+		case 0:
+			return ""; //Empty output for empty input
+			break;
+		default:
+			return '<span class="error">Wrong number of arguments to number_format.</span>';
+	}
+
+	$params[0] = preg_replace("/[^\.0-9e]*/","",$params[0]); //Set to plain number
+	if (!is_numeric($params[0])) return '<span class="error">First argument to number_format must be a number</span>';
+	$output = number_format($params[0], isset($params[1]) ? $params[1] : null, isset($params[2]) ? $params[2] : null, isset($params[3]) ? $params[3] : null);
+
+	switch ($params[3]) {
+		case 't':
+			$output = str_replace ( 't', '&thinsp;', $output );
+			break;
+		case 'n':
+			$output = str_replace ( 'n', '&nbsp;', $output );
+			break;
+	}
+	return $output;
+}
