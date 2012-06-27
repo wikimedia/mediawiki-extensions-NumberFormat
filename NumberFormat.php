@@ -5,8 +5,8 @@ $wgExtensionCredits['parserhook'][] = array(
 'version'      => '0.5', // 2012-06-22
 'description'  => 'Format numbers: insert thousands separators, round to a given number of decimals',
 'author'       => array(
-		'[[en:User:Patrick Nagel|Patrick Nagel]]',
-		'[[ru:User:Pastakhov|Pavel Astakhov]]'
+		'[[mw:User:Patrick Nagel|Patrick Nagel]]',
+		'[[mw:User:Pastakhov|Pavel Astakhov]]'
 		),
 'url'          => 'https://www.mediawiki.org/wiki/Extension:NumberFormat',
 );
