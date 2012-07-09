@@ -1,15 +1,19 @@
 <?php
  
+if ( ! defined( 'MEDIAWIKI' ) ) { die(); }
+
 $wgExtensionCredits['parserhook'][] = array(
 'name'         => 'NumberFormat',
-'version'      => '0.5', // 2012-06-22
-'description'  => 'Format numbers: insert thousands separators, round to a given number of decimals',
+'version'      => '0.5.1', // 2012-07-09
+'descriptionmsg'  => 'numberformat_desc',
 'author'       => array(
 		'[[mw:User:Patrick Nagel|Patrick Nagel]]',
 		'[[mw:User:Pastakhov|Pavel Astakhov]]'
 		),
 'url'          => 'https://www.mediawiki.org/wiki/Extension:NumberFormat',
 );
+
+$wgExtensionMessagesFiles['NumberFormat'] = dirname( __FILE__ ) . '/NumberFormat.i18n.php';
  
 $wgExtensionFunctions[] = 'number_format_Setup';
 $wgHooks['LanguageGetMagic'][] = 'number_format_Magic';
@@ -52,11 +56,11 @@ function number_format_Render(&$parser) {
 			return ""; //Empty output for empty input
 			break;
 		default:
-			return '<span class="error">Wrong number of arguments to number_format.</span>';
+			return '<span class="error">'.wfMsg( 'numberformat_wrongnargs' ).'</span>';
 	}
 
 	$params[0] = preg_replace("/[^\.0-9e]*/","",$params[0]); //Set to plain number
-	if (!is_numeric($params[0])) return '<span class="error">First argument to number_format must be a number</span>';
+	if (!is_numeric($params[0])) return '<span class="error">'.wfMsg( 'numberformat_firstargument' ).'</span>';
 	$output = number_format($params[0], isset($params[1]) ? $params[1] : null, isset($params[2]) ? $params[2] : null, isset($params[3]) ? $params[3] : null);
 
 	switch ($params[3]) {
