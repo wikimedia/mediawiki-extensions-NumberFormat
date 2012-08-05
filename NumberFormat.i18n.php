@@ -28,6 +28,15 @@ $messages['de'] = array(
 	'numberformat_firstargument' => 'Der erste Parameterwert der Funktion <code>number_format</code> muss eine Zahl sein',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'numberformat_desc' => 'Licby formatěrowaś: towzynty źěleńskich znamuškow zasunuś, na wěste decimalne licby wótrownaś',
+	'numberformat_wrongnargs' => 'Wopacna licba argumentow za <code>number_format</code>.',
+	'numberformat_firstargument' => 'Prědny argument za <code>number_format</code> musy licba byś.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -35,6 +44,24 @@ $messages['gl'] = array(
 	'numberformat_desc' => 'Formato dos números: Insira os separadores dos millares, redondee ata un número dado de decimais',
 	'numberformat_wrongnargs' => 'Número de argumentos incorrecto en number_format.',
 	'numberformat_firstargument' => 'O primeiro argumento de number_format debe ser un número.',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'numberformat_desc' => 'Ličby formatować: tysacy dźělatkow zasunyć, na wěste decimalne ličby kulojćić',
+	'numberformat_wrongnargs' => 'Wopačna ličba argumentow za <code>number_format</code>.',
+	'numberformat_firstargument' => 'Prěni argument za <code>number_format</code> dyrbi ličba być.',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'numberformat_desc' => 'Форматирање на броеви: вметнете одделувачи на илјадарки (т.е. запирки), заокружени на даден број децимали',
+	'numberformat_wrongnargs' => 'На number_format му се зададени погрешен број на аргументи.',
+	'numberformat_firstargument' => 'Првиот аргумент што му се задава на number_format мора да биде број.',
 );
 
 /** Russian (Русский)
