@@ -37,6 +37,15 @@ $messages['dsb'] = array(
 	'numberformat_firstargument' => 'Prědny argument za <code>number_format</code> musy licba byś.',
 );
 
+/** French (français)
+ * @author Erkethan
+ */
+$messages['fr'] = array(
+	'numberformat_desc' => 'Format de nombre : insérer le séparateur de milliers, arrondis à un nombre donné de décimales',
+	'numberformat_wrongnargs' => "Nombre d'arguments incorrect pour number_format.",
+	'numberformat_firstargument' => 'Le premier argument number_format doit être un nombre.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -55,6 +64,15 @@ $messages['hsb'] = array(
 	'numberformat_firstargument' => 'Prěni argument za <code>number_format</code> dyrbi ličba być.',
 );
 
+/** Italian (italiano)
+ * @author Darth Kule
+ */
+$messages['it'] = array(
+	'numberformat_desc' => 'Formatta i numeri: inserisce i separatori delle migliaia, arrotonda a un dato numero di decimali',
+	'numberformat_wrongnargs' => 'Numero errato di argomenti a number_format.',
+	'numberformat_firstargument' => 'Il primo argomento di number_format deve essere un numero.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
@@ -62,6 +80,15 @@ $messages['mk'] = array(
 	'numberformat_desc' => 'Форматирање на броеви: вметнете одделувачи на илјадарки (т.е. запирки), заокружени на даден број децимали',
 	'numberformat_wrongnargs' => 'На number_format му се зададени погрешен број на аргументи.',
 	'numberformat_firstargument' => 'Првиот аргумент што му се задава на number_format мора да биде број.',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'numberformat_desc' => 'Nummer opmaken: scheidingsteken voor duizentallen toevoegen en afronden op een opgegeven aantal decimalen',
+	'numberformat_wrongnargs' => 'Onjuist aantal parameters voor "number_format".',
+	'numberformat_firstargument' => 'De eerste parameter voor "number_format" moet een getal zijn.',
 );
 
 /** Russian (Русский)
