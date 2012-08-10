@@ -14,9 +14,17 @@ $messages = array();
  * @author Patrick Nagel
  */
 $messages['en'] = array(
-	'numberformat_desc' => 'Format numbers: insert thousands separators, round to a given number of decimals',
-	'numberformat_wrongnargs' => 'Wrong number of arguments to number_format.',
-	'numberformat_firstargument' => 'First argument to number_format must be a number.',
+	'numberformat_desc' => 'Format numbers: Insert thousands separators, round to a given number of decimals',
+	'numberformat_wrongnargs' => 'Wrong number of arguments to "number_format".',
+	'numberformat_firstargument' => 'First argument to "number_format" must be a number.',
+);
+
+$messages['qqq'] = array(
+	'numberformat_desc' => '{{desc}}',
+	'numberformat_wrongnargs' => '{{doc-important|Leave "number_format" untranslated.}}
+Error message displayed when providing an incorrect number of arguments.',
+	'numberformat_firstargument' => '{{doc-important|Leave "number_format" untranslated.}}
+Error message displayed when not providing a number as the first argument.',
 );
 
 /** German (Deutsch)
