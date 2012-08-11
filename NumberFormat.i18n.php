@@ -19,6 +19,7 @@ $messages['en'] = array(
 	'numberformat_firstargument' => 'First argument to "number_format" must be a number.',
 );
 
+/** Message documentation (Message documentation) */
 $messages['qqq'] = array(
 	'numberformat_desc' => '{{desc}}',
 	'numberformat_wrongnargs' => '{{doc-important|Leave "number_format" untranslated.}}
@@ -99,7 +100,7 @@ $messages['nl'] = array(
 	'numberformat_firstargument' => 'De eerste parameter voor "number_format" moet een getal zijn.',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Pavel Astakhov
  */
 $messages['ru'] = array(
