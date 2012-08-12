@@ -64,6 +64,15 @@ $messages['gl'] = array(
 	'numberformat_firstargument' => 'O primeiro argumento de number_format debe ser un número.',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'numberformat_desc' => 'עיצוב מספרים: הוספת מפרידי אלפים, עיגול',
+	'numberformat_wrongnargs' => 'מספר שגוי של ארגומנטים ל־"number_format".',
+	'numberformat_firstargument' => 'הארגומנט הראשון ל־"number_format" צריך להיות מספר.',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
