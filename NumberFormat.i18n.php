@@ -91,6 +91,14 @@ $messages['it'] = array(
 	'numberformat_firstargument' => 'Il primo argomento di number_format deve essere un numero.',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'numberformat_wrongnargs' => 'არგუმენტების არასწორი რაოდენობა "number_format"-თვის.',
+	'numberformat_firstargument' => 'პირველი არგუმენტი "number_format"-თვის უნდა იყოს რიცხვი.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
