@@ -46,6 +46,15 @@ $messages['dsb'] = array(
 	'numberformat_firstargument' => 'Prědny argument za <code>number_format</code> musy licba byś.',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'numberformat_desc' => 'Formato de números: Inserta los separadores de los millares, redondea hasta un número dado de decimales',
+	'numberformat_wrongnargs' => 'Número incorrecto de argumentos en "number_format".',
+	'numberformat_firstargument' => 'El primer argumento de number_format debe ser un número.',
+);
+
 /** French (français)
  * @author Erkethan
  */
