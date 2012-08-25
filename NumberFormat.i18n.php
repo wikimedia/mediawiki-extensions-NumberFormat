@@ -100,6 +100,15 @@ $messages['it'] = array(
 	'numberformat_firstargument' => 'Il primo argomento di number_format deve essere un numero.',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'numberformat_desc' => '数値の整形: 3 桁ごとの桁区切りを挿入し、指定した桁で四捨五入する',
+	'numberformat_wrongnargs' => '「number_format」の引数の個数が間違っています。',
+	'numberformat_firstargument' => '「number_format」の第 1 引数は数値でなければなりません。',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
