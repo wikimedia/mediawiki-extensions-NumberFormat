@@ -135,6 +135,15 @@ $messages['nl'] = array(
 	'numberformat_firstargument' => 'De eerste parameter voor "number_format" moet een getal zijn.',
 );
 
+/** Polish (polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'numberformat_desc' => 'Formatowanie liczb: Wstaw separatory tysięcy, zaokrąglenie do danej liczby miejsc po przecinku',
+	'numberformat_wrongnargs' => 'Niewłaściwa liczba argumentów dla "number_format".',
+	'numberformat_firstargument' => 'Pierwszy argument funkcji "number_format" musi być liczbą.',
+);
+
 /** Russian (русский)
  * @author Pavel Astakhov
  */
