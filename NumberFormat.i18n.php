@@ -117,6 +117,15 @@ $messages['ka'] = array(
 	'numberformat_firstargument' => 'პირველი არგუმენტი "number_format"-თვის უნდა იყოს რიცხვი.',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'numberformat_desc' => 'Zahle fommateere: Ronde, un Zweschreum för de Dousender enfööje.',
+	'numberformat_wrongnargs' => 'En verkiehrte Zahl Parrameetere för <code lang="en">number_format</code>.',
+	'numberformat_firstargument' => 'Dä eetste Parrameeter för <code lang="en">number_format</code> moss_en Zahl sin.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
