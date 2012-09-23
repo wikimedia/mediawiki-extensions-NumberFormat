@@ -28,6 +28,15 @@ Error message displayed when providing an incorrect number of arguments.',
 Error message displayed when not providing a number as the first argument.',
 );
 
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'numberformat_desc' => 'Фарматаваньне лікаў: даданьне разьдзяляльніка разрадаў, акругленьне да пазначанай колькасьці дзесятковых знакаў',
+	'numberformat_wrongnargs' => 'Няслушная колькасьць аргумэнтаў для «number_format».',
+	'numberformat_firstargument' => 'Першы аргумэнт для «number_format» мусіць быць лікам.',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
