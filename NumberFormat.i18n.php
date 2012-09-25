@@ -28,7 +28,7 @@ Error message displayed when providing an incorrect number of arguments.',
 Error message displayed when not providing a number as the first argument.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
