@@ -135,6 +135,15 @@ $messages['ksh'] = array(
 	'numberformat_firstargument' => 'Dä eetste Parrameeter för <code lang="en">number_format</code> moss_en Zahl sin.',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'numberformat_desc' => 'Zuele formatéieren: Trennungszeeche fir Dausender drasetzen, op eng definéiert Zuel vun Dezimalstellen ofronnen',
+	'numberformat_wrongnargs' => 'Fir d\'Fonctioun "number_format" gouf eng falsch Zuel vu Paramater uginn.',
+	'numberformat_firstargument' => 'Den éischte Parameter vun der Fonctioun "number_format" muss eng Zuel sinn.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
