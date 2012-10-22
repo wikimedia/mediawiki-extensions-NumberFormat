@@ -19,7 +19,8 @@ $messages['en'] = array(
 	'numberformat_firstargument' => 'First argument to "number_format" must be a number.',
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ */
 $messages['qqq'] = array(
 	'numberformat_desc' => '{{desc}}',
 	'numberformat_wrongnargs' => '{{doc-important|Leave "number_format" untranslated.}}
@@ -188,4 +189,3 @@ $messages['tl'] = array(
 	'numberformat_wrongnargs' => 'Maling bilang ng mga pangangatwiran sa anyo_ng_bilang.',
 	'numberformat_firstargument' => 'Dapat na maging isang bilang ang unang pangangatwiran sa anyo_ng_bilang.',
 );
-
