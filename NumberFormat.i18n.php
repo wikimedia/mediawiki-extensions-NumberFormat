@@ -127,6 +127,15 @@ $messages['ka'] = array(
 	'numberformat_firstargument' => 'პირველი არგუმენტი "number_format"-თვის უნდა იყოს რიცხვი.',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'numberformat_desc' => '숫자 형식: 세 자리마다 쉼표를 삽입하고 지정한 자리에서 반올림',
+	'numberformat_wrongnargs' => '"number_format"에 인수 숫자가 잘못됐습니다.',
+	'numberformat_firstargument' => '"number_format"에 첫 인수는 숫자여야 합니다.',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
