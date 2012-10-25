@@ -77,13 +77,16 @@ function number_format_Render( &$parser ) {
 		isset( $params[3] ) ? $params[3] : null
 	);
 
-	switch ( $params[3] ) {
-		case 't':
-			$output = str_replace( 't', '&thinsp;', $output );
-			break;
-		case 'n':
-			$output = str_replace( 'n', '&nbsp;', $output );
-			break;
+	if( isset( $params[3] ) ) {
+		switch ( $params[3] ) {
+			case 't':
+				$output = str_replace( 't', '&thinsp;', $output );
+				break;
+			case 'n':
+				$output = str_replace( 'n', '&nbsp;', $output );
+				break;
+		}
 	}
+
 	return $output;
 }
