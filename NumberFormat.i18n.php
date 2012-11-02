@@ -198,3 +198,12 @@ $messages['tl'] = array(
 	'numberformat_wrongnargs' => 'Maling bilang ng mga pangangatwiran sa anyo_ng_bilang.',
 	'numberformat_firstargument' => 'Dapat na maging isang bilang ang unang pangangatwiran sa anyo_ng_bilang.',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'numberformat_desc' => '数字格式：插入千位分隔符，省略到指定位数的小数',
+	'numberformat_wrongnargs' => '"number_format"的参数个数不正确。',
+	'numberformat_firstargument' => '"Number_format"的第一个参数必须是数字。',
+);
