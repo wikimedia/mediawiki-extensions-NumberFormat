@@ -199,6 +199,15 @@ $messages['tl'] = array(
 	'numberformat_firstargument' => 'Dapat na maging isang bilang ang unang pangangatwiran sa anyo_ng_bilang.',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'numberformat_desc' => 'Форматування чисел: Додання розділювачів розрядів, округлення до вказаного числа десяткових знаків',
+	'numberformat_wrongnargs' => 'Неправильне число аргументів для «number_format».',
+	'numberformat_firstargument' => 'Першим аргументом «number_format» повинно бути число.',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Yfdyh000
  */
