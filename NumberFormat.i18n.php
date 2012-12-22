@@ -29,6 +29,15 @@ Error message displayed when providing an incorrect number of arguments.',
 Error message displayed when not providing a number as the first argument.',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'numberformat_desc' => 'Dar formatu a númberos: Inxertar separadores de millares, redondiar a un númberu dau de decimales',
+	'numberformat_wrongnargs' => "Númberu d'argumentos incorreutu en «number_format».",
+	'numberformat_firstargument' => 'El primer argumentu de «number_format» tien de ser un númberu.',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
