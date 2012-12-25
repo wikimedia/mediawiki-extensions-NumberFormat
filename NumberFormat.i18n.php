@@ -190,6 +190,15 @@ $messages['pl'] = array(
 	'numberformat_firstargument' => 'Pierwszy argument funkcji "number_format" musi być liczbą.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'numberformat_desc' => 'Formata nùmer: Anseriss separador ëd milen-e, arotonda a un dàit nùmer ëd decimaj',
+	'numberformat_wrongnargs' => 'Nùmer d\'argoment pa bon a "number_format".',
+	'numberformat_firstargument' => 'Ël prim argument a "Number_format" a deuv esse un nùmer.',
+);
+
 /** Russian (русский)
  * @author Pavel Astakhov
  */
