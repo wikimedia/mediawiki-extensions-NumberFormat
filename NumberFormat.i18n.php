@@ -83,6 +83,15 @@ $messages['fr'] = array(
 	'numberformat_firstargument' => 'Le premier argument number_format doit être un nombre.',
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'numberformat_desc' => 'Format de nombro : entrebete lo sèparator de milyérs, arriondét a un nombro balyê de dècimâles',
+	'numberformat_wrongnargs' => 'Nombro d’arguments fôx por « number_format ».',
+	'numberformat_firstargument' => 'Lo premiér argument por « number_format » dêt étre un nombro.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
