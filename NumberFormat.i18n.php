@@ -200,12 +200,13 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'numberformat_desc' => 'Formata nùmer: Anseriss separador ëd milen-e, arotonda a un dàit nùmer ëd decimaj',
-	'numberformat_wrongnargs' => 'Nùmer d\'argoment pa bon a "number_format".',
-	'numberformat_firstargument' => 'Ël prim argument a "Number_format" a deuv esse un nùmer.',
+	'numberformat_desc' => 'Formà ëd nùmer: anserì ël separador ëd milen-e, arotondà a un dàit nùmer ëd decimaj',
+	'numberformat_wrongnargs' => "Nùmer d'argoment pa bon për «number_format».",
+	'numberformat_firstargument' => 'Ël prim argument an «number_format» a dev esse un nùmer.',
 );
 
 /** Russian (русский)
