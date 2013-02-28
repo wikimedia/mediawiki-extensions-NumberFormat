@@ -20,9 +20,10 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'numberformat_desc' => '{{desc}}',
+	'numberformat_desc' => '{{desc|name=Number Format|url=http://www.mediawiki.org/wiki/Extension:NumberFormat}}',
 	'numberformat_wrongnargs' => '{{doc-important|Leave "number_format" untranslated.}}
 Error message displayed when providing an incorrect number of arguments.',
 	'numberformat_firstargument' => '{{doc-important|Leave "number_format" untranslated.}}
