@@ -210,6 +210,15 @@ $messages['pms'] = array(
 	'numberformat_firstargument' => 'Ël prim argument an «number_format» a dev esse un nùmer.',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'numberformat_desc' => "Formate de le numere: 'Nzerisce separatore de le migliaie, arrotonde a 'nu date numere de decimale",
+	'numberformat_wrongnargs' => 'Numere de argumende sbagliate sus a "number_format".',
+	'numberformat_firstargument' => '\'U prime argomende de "number_format" adda esseere \'nu numere.',
+);
+
 /** Russian (русский)
  * @author Pavel Astakhov
  */
