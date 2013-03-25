@@ -75,6 +75,13 @@ $messages['es'] = array(
 	'numberformat_firstargument' => 'El primer argumento de number_format debe ser un número.',
 );
 
+/** Finnish (suomi)
+ * @author Silvonen
+ */
+$messages['fi'] = array(
+	'numberformat_desc' => 'Muotoile luvut: lisää tuhaterottimet ja pyöristä annettuun desimaalimäärään',
+);
+
 /** French (français)
  * @author Erkethan
  */
