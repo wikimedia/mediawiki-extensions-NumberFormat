@@ -217,6 +217,15 @@ $messages['pms'] = array(
 	'numberformat_firstargument' => 'Ël prim argument an «number_format» a dev esse un nùmer.',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'numberformat_desc' => 'Formata números: Insere separadores de milhar, arredonda a um dado número de decimais',
+	'numberformat_wrongnargs' => 'Número incorreto de argumentos ao "number_format".',
+	'numberformat_firstargument' => 'O primeiro argumento ao "number_format" deve ser um número.',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
