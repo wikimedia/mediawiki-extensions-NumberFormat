@@ -173,11 +173,12 @@ $messages['ksh'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'numberformat_desc' => 'Zuele formatéieren: Trennungszeeche fir Dausender drasetzen, op eng definéiert Zuel vun Dezimalstellen ofronnen',
-	'numberformat_wrongnargs' => 'Fir d\'Fonctioun "number_format" gouf eng falsch Zuel vu Paramater uginn.',
-	'numberformat_firstargument' => 'Den éischte Parameter vun der Fonctioun "number_format" muss eng Zuel sinn.',
+	'numberformat_wrongnargs' => 'Fir d\'Funktioun "number_format" gouf eng falsch Zuel vu Paramater uginn.',
+	'numberformat_firstargument' => 'Den éischte Parameter vun der Funktioun "number_format" muss eng Zuel sinn.',
 );
 
 /** Macedonian (македонски)
