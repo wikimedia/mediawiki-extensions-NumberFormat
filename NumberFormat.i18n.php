@@ -75,6 +75,15 @@ $messages['es'] = array(
 	'numberformat_firstargument' => 'El primer argumento de number_format debe ser un número.',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'numberformat_desc' => 'تعداد فرمت: الحاق هزاران جداکننده، گرد کردن اعداد داده شده به اعشار',
+	'numberformat_wrongnargs' => 'تعداد اشتباه بحث‌ها به "number_format"',
+	'numberformat_firstargument' => 'اولین یحث به "number_format"  باید یک عدد باشد.',
+);
+
 /** Finnish (suomi)
  * @author Silvonen
  */
