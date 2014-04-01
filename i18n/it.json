@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Darth Kule"
+        ]
+    },
+    "numberformat_desc": "Formatta i numeri: inserisce i separatori delle migliaia, arrotonda a un dato numero di decimali",
+    "numberformat_wrongnargs": "Numero errato di argomenti a number_format.",
+    "numberformat_firstargument": "Il primo argomento di number_format deve essere un numero."
+}

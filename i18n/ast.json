@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Xuacu"
+        ]
+    },
+    "numberformat_desc": "Dar formatu a númberos: Inxertar separadores de millares, redondiar a un númberu dau de decimales",
+    "numberformat_wrongnargs": "Númberu d'argumentos incorreutu en «number_format».",
+    "numberformat_firstargument": "El primer argumentu de «number_format» tien de ser un númberu."
+}

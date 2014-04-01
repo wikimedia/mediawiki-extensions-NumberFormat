@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Joetaras"
+        ]
+    },
+    "numberformat_desc": "Formate de le numere: 'Nzerisce separatore de le migliaie, arrotonde a 'nu date numere de decimale",
+    "numberformat_wrongnargs": "Numere de argumende sbagliate sus a \"number_format\".",
+    "numberformat_firstargument": "'U prime argomende de \"number_format\" adda esseere 'nu numere."
+}

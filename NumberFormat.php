@@ -6,7 +6,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'NumberFormat',
-	'version' => '0.6.0', // 2012-10-25
+	'version' => '0.7.0',
 	'descriptionmsg' => 'numberformat_desc',
 	'author' => array(
 		'[[mw:User:Patrick Nagel|Patrick Nagel]]',
@@ -16,6 +16,7 @@ $wgExtensionCredits['parserhook'][] = array(
 );
 
 $dir = __DIR__;
+$wgMessagesDirs['NumberFormat'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['NumberFormat'] = $dir . '/NumberFormat.i18n.php';
 $wgExtensionMessagesFiles['NumberFormatMagic'] = $dir . '/NumberFormat.i18n.magic.php';
 $wgHooks['ParserFirstCallInit'][] = 'number_format_Setup';
@@ -40,7 +41,7 @@ function number_format_Render( &$parser ) {
 	switch ( $paramcount ) {
 		case 5:
 			// Since 'space' cannot be passed through parser functions, users are advised to use
-			// the underscore instead. Converting back to space here.    
+			// the underscore instead. Converting back to space here.
 			if ( $params[4] == '_' ) {
 				$params[4] = ' ';
 			}

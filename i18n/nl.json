@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siebrand"
+        ]
+    },
+    "numberformat_desc": "Nummer opmaken: scheidingsteken voor duizentallen toevoegen en afronden op een opgegeven aantal decimalen",
+    "numberformat_wrongnargs": "Onjuist aantal parameters voor \"number_format\".",
+    "numberformat_firstargument": "De eerste parameter voor \"number_format\" moet een getal zijn."
+}

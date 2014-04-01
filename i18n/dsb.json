@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michawiki"
+        ]
+    },
+    "numberformat_desc": "Licby formatěrowaś: towzynty źěleńskich znamuškow zasunuś, na wěste decimalne licby wótrownaś",
+    "numberformat_wrongnargs": "Wopacna licba argumentow za <code>number_format</code>.",
+    "numberformat_firstargument": "Prědny argument za <code>number_format</code> musy licba byś."
+}

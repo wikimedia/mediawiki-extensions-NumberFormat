@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Patrick Nagel"
+        ]
+    },
+    "numberformat_desc": "Format numbers: Insert thousands separators, round to a given number of decimals",
+    "numberformat_wrongnargs": "Wrong number of arguments to \"number_format\".",
+    "numberformat_firstargument": "First argument to \"number_format\" must be a number."
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Toliño"
+        ]
+    },
+    "numberformat_desc": "Formato dos números: Insira os separadores dos millares, redondee ata un número dado de decimais",
+    "numberformat_wrongnargs": "Número de argumentos incorrecto en number_format.",
+    "numberformat_firstargument": "O primeiro argumento de number_format debe ser un número."
+}

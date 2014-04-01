@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Armin1392"
+        ]
+    },
+    "numberformat_desc": "تعداد فرمت: الحاق هزاران جداکننده، گرد کردن اعداد داده شده به اعشار",
+    "numberformat_wrongnargs": "تعداد اشتباه بحث‌ها به \"number_format\"",
+    "numberformat_firstargument": "اولین یحث به \"number_format\"  باید یک عدد باشد."
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "AnakngAraw"
+        ]
+    },
+    "numberformat_desc": "Iayos ang mga bilang: isingit ang mga panghiwalay ng mga libo, bilugin papunta sa isang ibinigay na bilang ng mga desimal",
+    "numberformat_wrongnargs": "Maling bilang ng mga pangangatwiran sa anyo_ng_bilang.",
+    "numberformat_firstargument": "Dapat na maging isang bilang ang unang pangangatwiran sa anyo_ng_bilang."
+}
