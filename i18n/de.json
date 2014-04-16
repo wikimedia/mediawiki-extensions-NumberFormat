@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln"
-        ]
-    },
-    "numberformat_desc": "Ermöglicht das Formatieren und Runden von Zahlen",
-    "numberformat_wrongnargs": "Zur Funktion <code>number_format</code> wurde eine fehlerhafte Anzahl an Parametern angegeben.",
-    "numberformat_firstargument": "Der erste Parameterwert der Funktion <code>number_format</code> muss eine Zahl sein"
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"numberformat_desc": "Ermöglicht das Formatieren und Runden von Zahlen",
+	"numberformat_wrongnargs": "Zur Funktion <code>number_format</code> wurde eine fehlerhafte Anzahl an Parametern angegeben.",
+	"numberformat_firstargument": "Der erste Parameterwert der Funktion <code>number_format</code> muss eine Zahl sein"
 }

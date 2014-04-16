@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "numberformat_desc": "Ličby formatować: tysacy dźělatkow zasunyć, na wěste decimalne ličby kulojćić",
-    "numberformat_wrongnargs": "Wopačna ličba argumentow za <code>number_format</code>.",
-    "numberformat_firstargument": "Prěni argument za <code>number_format</code> dyrbi ličba być."
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"numberformat_desc": "Ličby formatować: tysacy dźělatkow zasunyć, na wěste decimalne ličby kulojćić",
+	"numberformat_wrongnargs": "Wopačna ličba argumentow za <code>number_format</code>.",
+	"numberformat_firstargument": "Prěni argument za <code>number_format</code> dyrbi ličba być."
 }

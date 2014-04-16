@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Wizardist"
-        ]
-    },
-    "numberformat_desc": "Фарматаваньне лікаў: даданьне разьдзяляльніка разрадаў, акругленьне да пазначанай колькасьці дзесятковых знакаў",
-    "numberformat_wrongnargs": "Няслушная колькасьць аргумэнтаў для «number_format».",
-    "numberformat_firstargument": "Першы аргумэнт для «number_format» мусіць быць лікам."
+	"@metadata": {
+		"authors": [
+			"Wizardist"
+		]
+	},
+	"numberformat_desc": "Фарматаваньне лікаў: даданьне разьдзяляльніка разрадаў, акругленьне да пазначанай колькасьці дзесятковых знакаў",
+	"numberformat_wrongnargs": "Няслушная колькасьць аргумэнтаў для «number_format».",
+	"numberformat_firstargument": "Першы аргумэнт для «number_format» мусіць быць лікам."
 }

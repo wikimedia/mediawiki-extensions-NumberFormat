@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armando-Martin"
-        ]
-    },
-    "numberformat_desc": "Formato de números: Inserta los separadores de los millares, redondea hasta un número dado de decimales",
-    "numberformat_wrongnargs": "Número incorrecto de argumentos en \"number_format\".",
-    "numberformat_firstargument": "El primer argumento de number_format debe ser un número."
+	"@metadata": {
+		"authors": [
+			"Armando-Martin"
+		]
+	},
+	"numberformat_desc": "Formato de números: Inserta los separadores de los millares, redondea hasta un número dado de decimales",
+	"numberformat_wrongnargs": "Número incorrecto de argumentos en \"number_format\".",
+	"numberformat_firstargument": "El primer argumento de number_format debe ser un número."
 }

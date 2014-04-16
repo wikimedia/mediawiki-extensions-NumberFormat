@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "numberformat_desc": "Форматирање на броеви: вметнете одделувачи на илјадарки (т.е. запирки), заокружени на даден број децимали",
-    "numberformat_wrongnargs": "На number_format му се зададени погрешен број на аргументи.",
-    "numberformat_firstargument": "Првиот аргумент што му се задава на number_format мора да биде број."
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"numberformat_desc": "Форматирање на броеви: вметнете одделувачи на илјадарки (т.е. запирки), заокружени на даден број децимали",
+	"numberformat_wrongnargs": "На number_format му се зададени погрешен број на аргументи.",
+	"numberformat_firstargument": "Првиот аргумент што му се задава на number_format мора да биде број."
 }

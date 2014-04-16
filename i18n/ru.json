@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Pavel Astakhov"
-        ]
-    },
-    "numberformat_desc": "Формат числа: добавление разделителя разрядов и округление до указанного количества десятичных знаков",
-    "numberformat_wrongnargs": "Неверное количесвто аргументов для number_format.",
-    "numberformat_firstargument": "Первый аргумент для number_format должен быть числом."
+	"@metadata": {
+		"authors": [
+			"Pavel Astakhov"
+		]
+	},
+	"numberformat_desc": "Формат числа: добавление разделителя разрядов и округление до указанного количества десятичных знаков",
+	"numberformat_wrongnargs": "Неверное количесвто аргументов для number_format.",
+	"numberformat_firstargument": "Первый аргумент для number_format должен быть числом."
 }

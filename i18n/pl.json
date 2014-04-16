@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "BeginaFelicysym"
-        ]
-    },
-    "numberformat_desc": "Formatowanie liczb: Wstaw separatory tysięcy, zaokrąglenie do danej liczby miejsc po przecinku",
-    "numberformat_wrongnargs": "Niewłaściwa liczba argumentów dla \"number_format\".",
-    "numberformat_firstargument": "Pierwszy argument funkcji \"number_format\" musi być liczbą."
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym"
+		]
+	},
+	"numberformat_desc": "Formatowanie liczb: Wstaw separatory tysięcy, zaokrąglenie do danej liczby miejsc po przecinku",
+	"numberformat_wrongnargs": "Niewłaściwa liczba argumentów dla \"number_format\".",
+	"numberformat_firstargument": "Pierwszy argument funkcji \"number_format\" musi być liczbą."
 }

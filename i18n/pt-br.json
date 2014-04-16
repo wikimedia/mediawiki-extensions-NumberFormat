@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cainamarques"
-        ]
-    },
-    "numberformat_desc": "Formata números: Insere separadores de milhar, arredonda a um dado número de decimais",
-    "numberformat_wrongnargs": "Número incorreto de argumentos ao \"number_format\".",
-    "numberformat_firstargument": "O primeiro argumento ao \"number_format\" deve ser um número."
+	"@metadata": {
+		"authors": [
+			"Cainamarques"
+		]
+	},
+	"numberformat_desc": "Formata números: Insere separadores de milhar, arredonda a um dado número de decimais",
+	"numberformat_wrongnargs": "Número incorreto de argumentos ao \"number_format\".",
+	"numberformat_firstargument": "O primeiro argumento ao \"number_format\" deve ser um número."
 }

@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Base"
-        ]
-    },
-    "numberformat_desc": "Форматування чисел: Додання розділювачів розрядів, округлення до вказаного числа десяткових знаків",
-    "numberformat_wrongnargs": "Неправильне число аргументів для «number_format».",
-    "numberformat_firstargument": "Першим аргументом «number_format» повинно бути число."
+	"@metadata": {
+		"authors": [
+			"Base"
+		]
+	},
+	"numberformat_desc": "Форматування чисел: Додання розділювачів розрядів, округлення до вказаного числа десяткових знаків",
+	"numberformat_wrongnargs": "Неправильне число аргументів для «number_format».",
+	"numberformat_firstargument": "Першим аргументом «number_format» повинно бути число."
 }
