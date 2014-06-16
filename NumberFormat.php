@@ -6,7 +6,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 $wgExtensionCredits['parserhook'][] = array(
 	'name' => 'NumberFormat',
-	'version' => '0.7.0',
+	'version' => '0.8.0',
 	'descriptionmsg' => 'numberformat_desc',
 	'author' => array(
 		'[[mw:User:Patrick Nagel|Patrick Nagel]]',
@@ -67,7 +67,7 @@ function number_format_Render( &$parser ) {
 			return '<span class="error">' . wfMessage( 'numberformat_wrongnargs' )->escaped() . '</span>';
 	}
 
-	$params[0] = preg_replace( "/[^\.0-9e]*/", "", $params[0] ); //Set to plain number
+	$params[0] = preg_replace( "/[^\\.\\-0-9e]*/", "", $params[0] ); //Set to plain number
 	if ( !is_numeric( $params[0] ) ) {
 		return '<span class="error">' . wfMessage( 'numberformat_firstargument' )->escaped() . '</span>';
 	}
