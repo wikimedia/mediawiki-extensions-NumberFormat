@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"numberformat_desc": "Formatera nummer: Infoga tusentalseparatorer, avrunda till ett givet antal decimaler",
+	"numberformat_wrongnargs": "Fel antal argument för \"number_format\".",
+	"numberformat_firstargument": "Första argumentet till \"number_format\" måste vara ett nummer."
+}
