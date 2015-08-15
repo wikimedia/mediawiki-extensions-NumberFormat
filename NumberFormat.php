@@ -5,20 +5,22 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 $wgExtensionCredits['parserhook'][] = array(
+	'path' => __FILE__,
 	'name' => 'NumberFormat',
-	'version' => '0.8.0',
+	'namemsg' => 'numberformat_name',
+	'version' => '0.8.1',
 	'descriptionmsg' => 'numberformat_desc',
 	'author' => array(
-		'[[mw:User:Patrick Nagel|Patrick Nagel]]',
-		'[[mw:User:Pastakhov|Pavel Astakhov]]'
+		'[https://www.mediawiki.org/wiki/User:Patrick_Nagel Patrick Nagel]',
+		'[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]'
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NumberFormat',
+	'license-name' => 'LGPL-3.0+'
 );
 
-$dir = __DIR__;
 $wgMessagesDirs['NumberFormat'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['NumberFormat'] = $dir . '/NumberFormat.i18n.php';
-$wgExtensionMessagesFiles['NumberFormatMagic'] = $dir . '/NumberFormat.i18n.magic.php';
+$wgExtensionMessagesFiles['NumberFormat'] = __DIR__ . '/NumberFormat.i18n.php';
+$wgExtensionMessagesFiles['NumberFormatMagic'] = __DIR__ . '/NumberFormat.i18n.magic.php';
 $wgHooks['ParserFirstCallInit'][] = 'number_format_Setup';
 
 function number_format_Setup( Parser $parser )	 {
