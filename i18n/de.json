@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln"
+			"Kghbln",
+			"Metalhead64"
 		]
 	},
 	"numberformat_desc": "Ermöglicht das Formatieren und Runden von Zahlen",
+	"numberformat-extensionname": "NumberFormat",
 	"numberformat_wrongnargs": "Zur Funktion „number_format“ wurde eine fehlerhafte Anzahl an Parametern angegeben.",
 	"numberformat_firstargument": "Der erste Parameterwert der Funktion „number_format“ muss eine Zahl sein."
 }
