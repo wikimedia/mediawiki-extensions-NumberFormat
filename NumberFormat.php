@@ -7,7 +7,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'NumberFormat',
-	'namemsg' => 'numberformat_name',
+	'namemsg' => 'numberformat-extensionname',
 	'version' => '0.8.1',
 	'descriptionmsg' => 'numberformat_desc',
 	'author' => array(
