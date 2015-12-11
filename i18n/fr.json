@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Erkethan",
-			"Linedwell"
+			"Linedwell",
+			"Orlodrim"
 		]
 	},
 	"numberformat_desc": "Format de nombre : insérer le séparateur de milliers, arrondis à un nombre donné de décimales",
-	"numberformat_wrongnargs": "Nombre d'arguments incorrect pour « number_format ».",
-	"numberformat_firstargument": "Le premier argument « number_format » doit être un nombre."
+	"numberformat_wrongnargs": "Nombre d’arguments incorrect pour « number_format ».",
+	"numberformat_firstargument": "Le premier argument de « number_format » doit être un nombre."
 }
