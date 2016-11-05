@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"numberformat_desc": "Formatar números: Inserir separadores de milhares, arredondar a um dado número de casas decimais",
+	"numberformat_wrongnargs": "Número incorreto de argumentos passado a \"number_format\".",
+	"numberformat_firstargument": "O primeiro argumento passado a \"number_format\" tem de ser um número."
+}
