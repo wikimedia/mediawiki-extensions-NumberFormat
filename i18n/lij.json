@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"numberformat_desc": "A formatta i nummeri: a l'inseisce i separatoî de migiæa, a l'arionda a 'n dæto nummero de deçimali",
+	"numberformat_wrongnargs": "Nummero errou di argomenti a number_format.",
+	"numberformat_firstargument": "O primmo argomento a number_format o dev'ese 'n nummero."
+}
