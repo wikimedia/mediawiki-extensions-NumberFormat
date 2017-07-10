@@ -8,7 +8,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'NumberFormat',
 	'namemsg' => 'numberformat-extensionname',
-	'version' => '0.8.1',
+	'version' => '0.8.2',
 	'descriptionmsg' => 'numberformat_desc',
 	'author' => array(
 		'[https://www.mediawiki.org/wiki/User:Patrick_Nagel Patrick Nagel]',
@@ -64,7 +64,6 @@ function number_format_Render( &$parser ) {
 			break;
 		case 0:
 			return ""; //Empty output for empty input
-			break;
 		default:
 			return '<span class="error">' . wfMessage( 'numberformat_wrongnargs' )->escaped() . '</span>';
 	}
@@ -74,8 +73,8 @@ function number_format_Render( &$parser ) {
 		return '<span class="error">' . wfMessage( 'numberformat_firstargument' )->escaped() . '</span>';
 	}
 	$output = number_format(
-		$params[0],
-		isset( $params[1] ) ? $params[1] : null,
+		(float)$params[0],
+		isset( $params[1] ) ? (int)$params[1] : null,
 		isset( $params[2] ) ? $params[2] : null,
 		isset( $params[3] ) ? $params[3] : null
 	);
