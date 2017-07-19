@@ -1,14 +1,31 @@
 <?php
+/**
+ * NumberFormat - Allows to format numbers by inserting thousands separators
+ * or rounding to a given number of decimals
+ *
+ * @link https://www.mediawiki.org/wiki/Extension:NumberFormat Documentation
+ *
+ * @file NumberFormat.php
+ * @defgroup NumberFormat
+ * @ingroup Extensions
+ * @package MediaWiki
+ * @author Patrick Nagel
+ * @author Pavel Astakhov (Pastakhov)
+ * @copyright (C) 2009 Patrick Nagel
+ * @license https://www.gnu.org/licenses/lgpl-3.0.html GNU Lesser General Public License 3.0 or later
+ */
 
+// Ensure that the script cannot be executed outside of MediaWiki.
 if ( !defined( 'MEDIAWIKI' ) ) {
-	die();
+    die( 'This is an extension to MediaWiki and cannot be run standalone.' );
 }
 
+// Display extension properties on MediaWiki.
 $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'NumberFormat',
 	'namemsg' => 'numberformat-extensionname',
-	'version' => '0.8.2',
+	'version' => '0.9.0',
 	'descriptionmsg' => 'numberformat_desc',
 	'author' => array(
 		'[https://www.mediawiki.org/wiki/User:Patrick_Nagel Patrick Nagel]',
@@ -18,11 +35,14 @@ $wgExtensionCredits['parserhook'][] = array(
 	'license-name' => 'LGPL-3.0+'
 );
 
+// Register extension messages and other localisation.
 $wgMessagesDirs['NumberFormat'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['NumberFormat'] = __DIR__ . '/NumberFormat.i18n.php';
 $wgExtensionMessagesFiles['NumberFormatMagic'] = __DIR__ . '/NumberFormat.i18n.magic.php';
+
+// Register extension hooks.
 $wgHooks['ParserFirstCallInit'][] = 'number_format_Setup';
 
+// Do the extension's action.
 function number_format_Setup( Parser $parser )	 {
 	$parser->setFunctionHook( 'number_format', 'number_format_Render' );
 	return true;
