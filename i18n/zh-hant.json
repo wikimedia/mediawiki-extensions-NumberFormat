@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"numberformat_desc": "格式數字：插入千分位分隔，進位到指定的小數",
+	"numberformat_wrongnargs": "「number_format」裡參數的數字內容錯誤。",
+	"numberformat_firstargument": "「number_format」的首個參數必須是數字。"
+}
