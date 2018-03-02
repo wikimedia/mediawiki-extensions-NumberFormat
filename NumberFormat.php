@@ -32,7 +32,7 @@ $wgExtensionCredits['parserhook'][] = array(
 		'[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]'
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NumberFormat',
-	'license-name' => 'LGPL-3.0+'
+	'license-name' => 'LGPL-3.0-or-later'
 );
 
 // Register extension messages and other localisation.
