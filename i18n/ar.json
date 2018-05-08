@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mr. Ibrahem"
+			"Mr. Ibrahem",
+			"ديفيد"
 		]
 	},
-	"numberformat_wrongnargs": "عدد خاطئ من الحجج لـ \"number_format\"."
+	"numberformat_desc": "أرقام التنسيق: أدخل آلاف الفواصل، تقريبا إلى عدد معين من الكسور العشرية",
+	"numberformat_wrongnargs": "عدد خاطئ من الحجج لـ \"number_format\".",
+	"numberformat_firstargument": "يجب أن تكون الوسيطة الأولى لـ\"number_format\" رقما."
 }
