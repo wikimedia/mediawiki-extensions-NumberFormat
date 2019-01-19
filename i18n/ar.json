@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Mr. Ibrahem",
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"numberformat_desc": "أرقام التنسيق: أدخل آلاف الفواصل، تقريبا إلى عدد معين من الكسور العشرية",
+	"numberformat-extensionname": "صيغة الأرقام",
 	"numberformat_wrongnargs": "عدد خاطئ من الحجج لـ \"number_format\".",
 	"numberformat_firstargument": "يجب أن تكون الوسيطة الأولى لـ\"number_format\" رقما."
 }
