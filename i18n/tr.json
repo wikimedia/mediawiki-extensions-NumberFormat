@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"numberformat_desc": "Numaraları biçimlendir: Belirli bir ondalık basamağa yuvarlayarak binlerce ayırıcı ekleyin",
+	"numberformat_wrongnargs": "\"number_format\" için hatalı sayıda argüman var.",
+	"numberformat_firstargument": "\"number_format\" için ilk argüman bir sayı olmalıdır."
+}
