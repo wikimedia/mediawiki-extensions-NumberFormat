@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"numberformat_desc": "Memformat bilangan: Sisipkan pemisah ribuan, bulatkan ke sekian banyak desimal",
+	"numberformat_wrongnargs": "Banyak argumen untuk \"number_format\" yang diberikan salah.",
+	"numberformat_firstargument": "Argumen pertama untuk \"number_format\" harus bilangan."
+}
