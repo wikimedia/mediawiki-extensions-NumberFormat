@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Event",
 			"Jon Harald Søby"
 		]
 	},
-	"numberformat_desc": "Formater tall: Sett inn tusenskilletegn, rund til et gitt antall desimaler",
-	"numberformat_wrongnargs": "Galt antall argumenter til «number_format».",
+	"numberformat_desc": "Formatér tall: Sett inn tusenskilletegn, avrund til et gitt antall desimaler",
+	"numberformat_wrongnargs": "Feil antall argumenter til «number_format».",
 	"numberformat_firstargument": "Det første argumentet til «number_format» må være et tall."
 }
