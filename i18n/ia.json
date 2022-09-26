@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"numberformat_desc": "Formatar numeros: inserer le separator de mille, arrotundar a un numero date de decimales",
+	"numberformat_wrongnargs": "Numero de argumentos incorrecte pro \"number_format\".",
+	"numberformat_firstargument": "Le prime argumento de \"number_format\" debe esser un numero."
+}
