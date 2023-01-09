@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"numberformat_desc": "Omogoča oblikovanje in zaokrožanje številk",
+	"numberformat_wrongnargs": "Napačno število argumentov za »number_format«.",
+	"numberformat_firstargument": "Prvi argument za »number_format« mora biti število."
+}
