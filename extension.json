@@ -1,0 +1,30 @@
+{
+	"name": "NumberFormat",
+	"version": "1.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Patrick_Nagel Patrick Nagel]",
+		"[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NumberFormat",
+	"descriptionmsg": "numberformat_desc",
+	"license-name": "LGPL-3.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"NumberFormat": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"NumberFormatMagic": "NumberFormat.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"NumberFormat": "NumberFormat.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "NumberFormat::onParserFirstCallInit"
+	},
+	"manifest_version": 2
+}

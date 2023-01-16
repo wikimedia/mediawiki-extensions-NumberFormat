@@ -6,9 +6,9 @@
  * @ingroup Extensions
  */
 
-$magicWords = array();
+$magicWords = [];
 
 /** English (English) */
-$magicWords['en'] = array(
-	'number_format' => array( 0, 'number_format' ),
-);
+$magicWords['en'] = [
+	'number_format' => [ 0, 'number_format' ],
+];
