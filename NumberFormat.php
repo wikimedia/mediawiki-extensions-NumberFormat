@@ -15,9 +15,11 @@ class NumberFormat {
 	 * Format a given number
 	 *
 	 * {{#number_format:number|decimals|dec_point|thousands_sep}}
+	 *
+	 * @param Parser $parser
+	 * @return mixed
 	 */
-	public static function formatNumber( &$parser ) {
-
+	public static function formatNumber( Parser $parser ) {
 		// Get the parameters that were passed to this function
 		$params = func_get_args();
 		array_shift( $params );
@@ -28,6 +30,7 @@ class NumberFormat {
 		}
 
 		switch ( $paramcount ) {
+			// phpcs:ignore PSR2.ControlStructures.SwitchDeclaration.TerminatingComment
 			case 5:
 				// Since 'space' cannot be passed through parser functions, users are advised to use
 				// the underscore instead. Converting back to space here.
@@ -62,8 +65,8 @@ class NumberFormat {
 		$output = number_format(
 			(float)$params[0],
 			isset( $params[1] ) ? (int)$params[1] : null,
-			isset( $params[2] ) ? $params[2] : null,
-			isset( $params[3] ) ? $params[3] : null
+			$params[2] ?? null,
+			$params[3] ?? null
 		);
 
 		if ( isset( $params[3] ) ) {
