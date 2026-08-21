@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"numberformat_desc": "Formátuje čísla: vkladá oddeľovače tisícok, zaokrúhľuje na zadaný počet desatinných miest",
+	"numberformat_wrongnargs": "Nesprávny počet argumentov funkcie „number_format“.",
+	"numberformat_firstargument": "Prvý argument funkcie „number_format“ musí byť číslo."
+}
