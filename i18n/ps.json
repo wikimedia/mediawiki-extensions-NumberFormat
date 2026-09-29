@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"numberformat_desc": "شمېرې بڼل: د ورکړل شويو اعشاريه شمېرو شاوخوا د زريزو بېلوونکو ورټومبل",
+	"numberformat_wrongnargs": "\"number_format\" لپاره د دليلونو ناسم شمېر.",
+	"numberformat_firstargument": "\"number_format\" لپاره لومړی دليل بايد يوه شمېره وي."
+}
